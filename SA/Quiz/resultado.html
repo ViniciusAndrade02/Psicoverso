@@ -1,0 +1,91 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado do Quiz</title>
+
+    <link rel="stylesheet" href="amburguer.css">
+    <link rel="stylesheet" href="resultadocss.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+    
+    <div id="Geral">
+
+        <img src="" alt="">
+
+        <div id="falso">
+
+        </div>
+
+        <div id="meio">
+
+            <label class="score">Sua Pontuação</label> 
+            <label class="score" id="substituir">...</label>
+
+        </div>
+
+        <div id="Recomendacao">
+            
+
+            <label class="escrever" id="Classificação"></label>
+            <label class="escrever" id="Conselhos"></label>
+            <label class="escrever" id="link"></label>
+
+        </div>
+
+
+        <div id="tabela">
+
+            <table id="tab" border="1">
+
+                <tr>
+                    <td>Pontuação</td>
+                    <td>Classificação</td>
+                </tr>
+
+                <tr>
+
+                    <td>100-75</td>
+                    <td>Extremamente Viciado</td>
+                </tr>
+
+                <tr>
+
+                    <td>74-50</td>
+                    <td>Muito Viciado</td>
+                </tr>
+
+                <tr>
+
+                    <td>49-26</td>
+                    <td>Pouco Viciado</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>25-0</td>
+                    <td>Nenhum Vício</td>
+
+                </tr>
+            </table>
+        </div>
+
+        <div id="divdobotão">
+
+            <button onclick="voltarprincipal()" id="botaovoltar">Principal</button>
+            <button onclick="rank()" id="botaorank">Rank</button>
+
+        </div>
+            <label class="aviso" id="Agradecimento"></label>
+    </div>
+
+    <script src="resultadojs.js"></script>
+    <script src="calculosquiz.js"></script>
+
+
+</body>
+</html>

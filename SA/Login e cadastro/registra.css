@@ -1,0 +1,325 @@
+html{
+
+    height: 100%;
+    
+}
+body{
+    
+    height: 100%;
+    margin: 0%;
+    
+}
+#container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("img/fundomatias.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+
+
+
+    
+}
+#meio{
+
+    height: 85%;
+    width: 43.5%;
+    border-radius: 50px;    
+    background-color: rgb(251, 253, 255);
+    display: flex;
+    justify-content: center;
+
+}
+#cima{
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#baixo{
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#nome{
+
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+#inputs{
+
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+
+    
+
+}
+
+.digitar{
+
+    height: 28px;
+
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+
+
+
+}
+
+#botao{
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#click{
+
+
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+
+    margin: 4%;
+    border-radius: 15px;
+    font-size: 16px;
+
+    position: relative;
+    top: 0px;
+
+    
+
+}
+#click:hover{
+
+    background-color: rgba(31, 34, 31, 0.979);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+
+/*POSSIVEIS ERROS DO USUÁRIO*/ 
+
+.espacobranco{  
+
+    height: 28px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+
+    border: 2px solid red;
+    text-align: center;
+    animation: shake 0.5s;
+    text-align: left;
+}
+
+.espacobranco:focus{
+
+    height: 28px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+
+    outline: none;
+    border:2px solid red;
+    text-align: center;
+    text-align: left;
+    
+
+}
+.espacobranco::placeholder{
+
+    color: red;
+    text-align: center;
+
+}
+
+.digitar::placeholder{
+
+    text-align: center;
+}
+
+
+
+
+.senharepetida1{
+
+    height: 28px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+
+    border: 2px solid red;
+    text-align: center;
+    animation: shake 0.5s;
+    text-align: left; 
+}
+
+.senharepetida1:focus{
+
+    height: 28px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+
+    outline: none;
+    border:2px solid red;
+    text-align: center;
+    text-align: left;
+    
+
+}
+
+.senharepetida1::placeholder{
+
+    color: red;
+    text-align: center;
+
+}
+
+.senharepetida2{
+
+    height: 28px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+
+    border: 2px solid red;
+    text-align: center;
+    animation: shake 0.5s;
+    text-align: left; 
+}
+
+.senharepetida2:focus{
+
+    height: 28px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+
+    outline: none;
+    border:2px solid red;
+    text-align: center;
+    text-align: left;
+    
+
+}
+
+.senharepetida2::placeholder{
+
+    color: red;
+    text-align: center;
+
+}
+
+.cadastrojaexistente{
+
+    height: 28px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+
+    border: 2px solid red;
+    text-align: center;
+    animation: shake 0.5s;
+    text-align: left; 
+}
+
+.cadastrojaexistente:focus{
+
+    height: 28px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+
+    outline: none;
+    border:2px solid red;
+    text-align: center;
+    text-align: left;
+    
+}
+
+.cadastrojaexistente::placeholder{
+
+    color: red;
+    text-align: center;
+
+}
+
+
+.cadastrolimpo{
+
+    height: 28px;
+
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+}
+.senhalimpo1{
+
+    height: 28px;
+
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left; 
+    padding-left: 10px;
+}
+
+.senhalimpo2{
+
+    height: 25px;
+
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+
+@keyframes shake{
+
+
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

@@ -1,0 +1,184 @@
+body{
+    
+    height: 100%;
+    margin: 0%;
+
+    
+}
+#container{
+
+    margin: 0%;
+    background: linear-gradient(#1bf150,#0e6b25,#093b15,#04200b);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#quiz{
+
+    width: 1000px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#perguntas{
+
+    text-align: center;
+
+    
+
+}
+
+
+.vermelho[type="radio"]{
+
+    height: 20px;
+    width: 20px;
+    accent-color:rgb(250, 107, 107);
+    
+}
+
+
+.vermelho[type='radio']:checked::before{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(255, 85, 85);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+.amarelo[type="radio"]{
+
+    height: 20px;
+    width: 20px;
+    accent-color:rgb(250, 236, 107);
+
+}
+
+.amarelo[type='radio']:checked::before{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(255, 239, 91);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+.verde[type="radio"]{
+
+    height: 20px;
+    width: 20px;
+    accent-color:rgb(83, 255, 83);
+
+}
+
+.verde[type='radio']:checked::before{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(122, 220, 122);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+.azul[type="radio"]{
+
+    height: 20px;
+    width: 20px;
+    accent-color:rgb(107, 240, 250);
+
+}
+
+.azul[type='radio']:checked::before{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(101, 179, 185);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+#titulo{
+
+    height: 100;
+
+}
+#nome{
+
+    width: 99,9%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000000;
+
+}
+#volta{
+
+    width: 200px;
+    height: 60px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    margin: 4%;
+
+}
+#botao{
+
+    cursor: pointer;
+    height: 80px;
+    width: 180px;
+
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+
+
+}
+
+#botao:hover{
+
+    background-color: rgba(31, 34, 31, 0.979);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.label{
+
+    font-size: 19px;
+}

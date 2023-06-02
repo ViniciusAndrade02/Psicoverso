@@ -1,0 +1,198 @@
+html{
+
+    height: 100%;
+
+}
+body{
+
+    height: 100%;
+    margin: 0%;
+
+
+
+}
+
+#Container{
+
+    height: 100%;
+    width: 100%;
+
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    
+
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0.3;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+#inicio{
+
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#meio{
+
+    display: flex;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(196, 14, 14);
+
+}
+
+#escrita{
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 60px;
+
+    opacity: 1;
+	animation-name: indodireita;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes indodireita {
+	0% {
+		left: -60px;
+	}
+	100% {
+		left: 60px;
+	}
+}
+
+#input{
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+#fim{
+
+    height: 20%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+#partedebaixo{
+
+    height: 100%;
+    width: 100%;
+}
+
+#botaodireita{
+
+    background-color: aqua;
+}
+
+.animarbotaodireita{
+
+
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+    opacity: 1;
+	animation-name: botao;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+    z-index: 1;
+
+    position: relative;
+	left: -10px;
+    top: 0px;
+}
+
+@keyframes botao {
+	0% {
+
+		left: -10px;
+        top: 0px;
+	}
+	25% {
+
+
+		left: 300px;
+        top: 500px;
+	}
+
+    50%{
+
+        left: 500px;
+        top: 0px;
+
+    }
+
+    75%{
+
+        left: 700px;
+        top: 500px;
+
+    }
+
+    100%{
+
+	left: -10px;
+    top: 0px;
+    }
+
+
+
+}
+
+.carrossel{
+
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+
+.cont{
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+#img{
+
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+
+
+}
+
+#imagemficarencaixada{
+
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,77 @@
+/*css da parte superior do site do quiz*/
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0%;
+
+}
+#Geral{
+
+    height: 100%;
+    background: linear-gradient(to right, #063312,#17dd49,#17dd49,#042b0d);
+}
+
+#teto{
+
+    height: 11%;
+    width: 100%;
+    display: flex;
+}
+
+#menu-bar{
+
+    height: 100%;
+    width: 25%;
+
+    display: grid;
+    justify-content: center;
+    align-items: baseline;
+
+
+}
+
+
+
+#titulo{
+
+    height: 100%;
+    width: 50%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil{
+
+    height: 100%;
+    width: 25%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#mostrarnome{
+
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#PerfilBotao{
+
+    border-radius: 80%;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+
+}

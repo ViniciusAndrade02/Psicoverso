@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="desing.css">
+    <link rel="stylesheet" href="amburguer.css">
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+
+    <div id="Geral">
+
+        <div id="teto">
+
+            <div id="menu-bar">
+                    
+                    <div id="menu" onclick="onClickMenu()">
+                
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+            
+                    </div>
+            
+            </div>
+
+
+            
+            <div id="titulo">
+
+                <h1>QUIZ</h1>
+
+            </div>
+
+            <div id="perfil">
+
+                <button onclick="Perfil()" id="PerfilBotao">
+                    <span class="material-icons">
+                    person
+                    </span>
+                </button>
+
+                <label onclick="Perfil()" id="mostrarnome">LOGIN</label>
+
+            </div>
+        </div>
+
+        <div id="container">
+
+
+            
+            <div id="quiz">
+                <h1 id="perguntas">1-Cotidianamente, jogo por mais de 10 horas?</h1>
+                <div>
+                    <input class="vermelho" id="um" type="radio" name="fist">
+                    <label class="label" for="um">Extremo</label>
+
+                    <input class="amarelo" id="dois" type="radio" name="fist">
+                    <label class="label" for="dois">Muito</label>
+
+                    <input class="verde" id="tres" type="radio" name="fist">
+                    <label class="label" for="tres">Pouco</label>
+
+                    <input class="azul" id="quatro" type="radio" name="fist">
+                    <label class="label" for="quatro">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">⠀⠀⠀2- Deixo de comer para jogar ou realizar todas as refeições em frente ao computador/televisão?</h1>
+                <div>
+                    <input class="vermelho" id="cinco" type="radio" name="two">
+                    <label class="label" for="cinco">Extremo</label>
+
+                    <input class="amarelo" id="seis" type="radio" name="two">
+                    <label class="label" for="seis">Muito</label>
+
+                    <input class="verde" id="sete" type="radio" name="two">
+                    <label class="label" for="sete">Pouco</label>
+
+                    <input class="azul" id="oito" type="radio" name="two">
+                    <label class="label" for="oito">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">3-Evito estudar por causa do "Vídeo Game"?</h1>
+                <div>
+                    <input class="vermelho" id="nove" type="radio" name="three">
+                    <label class="label" for="nove">Extremo</label>
+
+                    <input class="amarelo" id="dez" type="radio" name="three">
+                    <label class="label" for="dez">Muito</label>
+
+                    <input class="verde" id="dezum" type="radio" name="three">
+                    <label class="label" for="dezum">Pouco</label>
+
+                    <input class="azul" id="dezdois" type="radio" name="three">
+                    <label class="label" for="dezdois">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">⠀⠀4-Tenho dificuldade em terminar a tarefa de trabalho/escolar por causa do Vídeo Game?</h1>
+                <div>
+
+                    <input class="vermelho" id="deztres" type="radio" name="four">
+                    <label class="label" for="deztres">Extremo</label>
+
+                    <input class="amarelo" id="dezquatro" type="radio" name="four">
+                    <label class="label" for="dezquatro">Muito</label>
+
+                    <input class="verde" id="dezcinco" type="radio" name="four">
+                    <label class="label" for="dezcinco">Pouco</label>
+
+                    <input class="azul" id="dezseis" type="radio" name="four">
+                    <label class="label" for="dezseis">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">5- Falto a escola ou ao trabalho para não deixar o jogo?</h1>
+                <div>
+                    <input class="vermelho" id="dezsete" type="radio" name="five">
+                    <label class="label" for="dezsete">Extremo</label>
+
+                    <input class="amarelo" id="dezoito" type="radio" name="five">
+                    <label class="label" for="dezoito">Muito</label>
+
+                    <input class="verde" id="deznove" type="radio" name="five">
+                    <label class="label" for="deznove">Pouco</label>
+
+                    <input class="azul" id="vinte" type="radio" name="five">
+                    <label class="label" for="vinte">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">6-Prefiro jogar a sair com os meus amigos/familiares</h1>
+                <div>
+                    <input class="vermelho" id="vinteum" type="radio" name="six">
+                    <label class="label" for="vinteum">Extremo</label>
+
+                    <input class="amarelo" id="vintedois" type="radio" name="six">
+                    <label class="label" for="vintedois">Muito</label>
+
+                    <input class="verde" id="vintetrez" type="radio" name="six">
+                    <label class="label" for="vintetrez">Pouco</label>
+
+                    <input class="azul" id="vintequatro" type="radio" name="six">
+                    <label class="label" for="vintequatro">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">7-Deixo de tomar banho para jogar?</h1>
+                <div>
+                    <input class="vermelho" id="vintecinco" type="radio" name="seven">
+                    <label class="label" for="vintecinco">Extremo</label>
+
+                    <input class="amarelo" id="vinteseis" type="radio" name="seven">
+                    <label class="label" for="vinteseis">Muito</label>
+
+                    <input class="verde" id="vintesete" type="radio" name="seven">
+                    <label class="label" for="vintesete">Pouco</label>
+
+                    <input class="azul" id="vinteoito" type="radio" name="seven">
+                    <label class="label" for="vinteoito">Nada</label>
+                </div> 
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">8-Deixo de escovar os dentes para jogar?</h1>
+                <div>
+                    <input class="vermelho" id="vintenove" type="radio" name="eight">
+                    <label class="label" for="vintenove">Extremo</label>
+
+                    <input class="amarelo" id="trinta" type="radio" name="eight">
+                    <label class="label" for="trinta">Muito</label>
+
+                    <input class="verde" id="trintaum" type="radio" name="eight">
+                    <label class="label" for="trintaum">Pouco</label>
+
+                    <input class="azul" id="trintadois" type="radio" name="eight">
+                    <label class="label" for="trintadois">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">9- Comprometo meu horário de sono para jogar mais?</h1>
+                <div>
+                    <input class="vermelho" id="trintatreis" type="radio" name="nine">
+                    <label class="label" for="trinclass="label"tatreis">Extremo</label>
+
+                    <input class="amarelo" id="trintaquatro" type="radio" name="nine">
+                    <label class="label" for="trintaquatro">Muito</label>
+
+                    <input class="verde" id="trintacinco" type="radio" name="nine">
+                    <label class="label" for="trintacinco">Pouco</label>
+
+                    <input class="azul" id="trintaseis" type="radio" name="nine">
+                    <label class="label" for="trintaseis">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">⠀⠀10-Gasto muito dinheiro comprando itens ou roupas dentro dos jogos?</h1>
+                <div>
+                    <input class="vermelho" id="trintasete" type="radio" name="ten">
+                    <label class="label" for="trintasete">Extremo</label>
+
+                    <input class="amarelo" id="trintaoito" type="radio" name="ten">
+                    <label class="label" for="trintaoito">Muito</label>
+
+                    <input class="verde" id="trintanove" type="radio" name="ten">
+                    <label class="label" for="trintanove">Pouco</label>
+
+                    <input class="azul" id="quarenta"   type="radio" name="ten">
+                    <label class="label" for="quarenta">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">⠀11-Estabeleço uma nova vida social, apenas conversa  com amigos online?</h1>
+                <div>
+                    <input class="vermelho" id="quarentaum" type="radio" name="eleven">
+                    <label class="label" for="quarentaum">Extremo</label>
+
+                    <input class="amarelo" id="quarentadois" type="radio" name="eleven">
+                    <label class="label" for="quarentadois">Muito</label>
+
+                    <input class="verde" id="quarentatres" type="radio" name="eleven">
+                    <label class="label" for="quarentatres">Pouco</label>
+
+                    <input class="azul" id="quarentaquatro" type="radio" name="eleven">
+                    <label class="label" for="quarentaquatro">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">⠀⠀⠀12-Possuo dificuldades em tirar boas notas ou realizar meu trabalho com excelência?</h1>
+                <div>
+                    <input class="vermelho" id="quarentacinco" type="radio" name="twelve">
+                    <label class="label" for="quarentacinco">Extremo</label>
+
+                    <input class="amarelo" id="quarentaseis" type="radio" name="twelve">
+                    <label class="label" for="quarentaseis">Muito</label>
+
+                    <input class="verde" id="quarentasete" type="radio" name="twelve">
+                    <label class="label" for="quarentasete">Pouco</label>
+
+                    <input class="azul" id="quarentaoito" type="radio" name="twelve">
+                    <label class="label" for="quarentaoito">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">13-Ando muito irritado e estressado?</h1>
+                <div>
+                    <input class="vermelho" id="quarentanove" type="radio" name="thirteen">
+                    <label class="label" for="quarentanove">Extremo</label>
+
+                    <input class="amarelo" id="cinquenta" type="radio" name="thirteen">
+                    <label class="label" for="cinquenta">Muito</label>
+
+                    <input class="verde" id="cinquentaum" type="radio" name="thirteen">
+                    <label class="label" for="cinquentaum">Pouco</label>
+
+                    <input class="azul" id="cinquentadois" type="radio" name="thirteen">
+                    <label class="label" for="cinquentadois">Nada</label>
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">14-Mesmo apurado prefiro jogar?</h1>
+                <div>
+                    <input class="vermelho" id="cinquentatres" type="radio" name="fourteen">
+                    <label class="label" for="cinquentatres">Extremo</label>
+
+                    <input class="amarelo" id="cinquentaquatro" type="radio" name="fourteen">
+                    <label class="label" for="cinquentaquatro">Muito</label>
+
+                    <input class="verde" id="cinquentacinco" type="radio" name="fourteen">
+                    <label class="label" for="cinquentacinco">Pouco</label>
+
+                    <input class="azul" id="cinquentaseis" type="radio" name="fourteen">
+                    <label class="label" for="cinquentaseis">Nada</label>
+
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">15-Prefiro jogar que alimentar-me?</h1>
+                <div>
+                    <input class="vermelho" id="cinquentasete" type="radio" name="fiveteen">
+                    <label class="label" for="cinquentasete">Extremo</label>
+
+                    <input class="amarelo" id="cinquentaoito" type="radio" name="fiveteen">
+                    <label class="label" for="cinquentaoito">Muito</label>
+
+                    <input class="verde" id="cinquentanove" type="radio" name="fiveteen">
+                    <label class="label" for="cinquentanove">Pouco</label>
+
+                    <input class="azul" id="sesenta" type="radio" name="fiveteen">
+                    <label class="label" for="sesenta">Nada</label>
+
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">16-Costumo ter dores da coluna?</h1>
+                <div>
+                    <input class="vermelho" id="sesentaum" type="radio" name="sixteen">
+                    <label class="label" for="sesentaum">Extremo</label>
+
+                    <input class="amarelo" id="sesentadois" type="radio" name="sixteen">
+                    <label class="label" for="sesentadois">Muito</label>
+
+                    <input class="verde" id="sesentatres" type="radio" name="sixteen">
+                    <label class="label" for="sesentatres">Pouco</label>
+
+                    <input class="azul" id="sesentaquatro" type="radio" name="sixteen">
+                    <label class="label" for="sesentaquatro">Nada</label>
+
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">17-Frequentemente possuo dores de cabeça?</h1>
+                <div>
+                    <input class="vermelho" id="sesentacinco" type="radio" name="seveteen">
+                    <label class="label" for="sesentacinco">Extremo</label>
+
+                    <input class="amarelo" id="sesentaseis" type="radio" name="seveteen">
+                    <label class="label" for="sesentaseis">Muito</label>
+
+                    <input class="verde" id="sesentasete" type="radio" name="seveteen">
+                    <label class="label" for="sesentasete">Pouco</label>
+
+                    <input class="azul" id="sesentaoito" type="radio" name="seveteen">
+                    <label class="label" for="sesentaoito">Nada</label>
+
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas"> 18-Se no meio do jogo(em uma situação calma) a internet caísse, tranquilamente voltaria a esperar</h1>
+                <div>
+                    <input class="vermelho" id="sesentanove" type="radio" name="eighteen">
+                    <label class="label" for="sesentanove">Extremo</label>
+
+                    <input class="amarelo" id="setenta" type="radio" name="eighteen">
+                    <label class="label" for="setenta">Muito</label>
+
+                    <input class="verde" id="setentaum" type="radio" name="eighteen">
+                    <label class="label" for="setentaum">Pouco</label>
+
+                    <input class="azul" id="setentadois" type="radio" name="eighteen">
+                    <label class="label" for="setentadois">Nada</label>
+
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">19-Preciso jogar para me sentir bem?</h1>
+                <div>
+                    <input class="vermelho" id="setentatres" type="radio" name="nineteen">
+                    <label class="label" for="setentatres">Extremo</label>
+
+                    <input class="amarelo" id="setentaquatro" type="radio" name="nineteen">
+                    <label class="label" for="setentaquatro">Muito</label>
+
+                    <input class="verde" id="setentacinco" type="radio" name="nineteen">
+                    <label class="label" for="setentacinco">Pouco</label>
+
+                    <input class="azul" id="setentaseis" type="radio" name="nineteen">
+                    <label class="label" for="setentaseis">Nada</label>
+
+                </div>
+            </div>
+            <div id="quiz">
+                <h1 id="perguntas">⠀⠀20-Sabendo das diversas consequências de jogar exageradamente, não consigo largar o jogo para realizar as atividades básicas</h1>
+                <div>
+                    <input class="vermelho" id="setentasete" type="radio" name="twelty">
+                    <label class="label" for="setentasete">Extremo</label>
+
+                    <input class="amarelo" id="setentaoito" type="radio" name="twelty">
+                    <label class="label" for="setentaoito">Muito</label>
+
+                    <input class="verde" id="setentanove" type="radio" name="twelty">
+                    <label class="label" for="setentanove">Pouco</label>
+
+                    <input class="azul" id="oitenta" type="radio" name="twelty">
+                    <label class="label" for="oitenta">Nada</label>
+
+                </div>
+            </div>
+
+        <div id="volta">
+
+            <button id="botao" onclick="operacao()">PONTUAÇÃO</button>
+
+        </div>
+
+            
+    </div>
+    </div>
+    
+    <div id="Menu-Bg" class="esconderdiv">
+
+        <div id="espaco">
+        </div>
+
+        <div id="Principal">
+
+             <label onclick="Principal()" id="EscritaPrincipal">Principal</label>
+
+        </div>
+
+        <div id="Quiz">
+
+           <label onclick="Quiz()" id="EscritaQuiz">Quiz</label> 
+
+        </div>
+
+        <div id="Psicólogos">
+
+            <label onclick="Rank()" id="EscritaPsicologo">Rank</label>
+
+        </div>
+
+        <div id="Usuariosair">
+
+            <label onclick="Sair()" id="EscritaSair">Sair</label>
+
+        </div>
+
+    </div>
+
+
+    <script src="amburguerjs.js"></script>
+    <script src="calculosquiz.js"></script>
+    
+</body>
+</html>

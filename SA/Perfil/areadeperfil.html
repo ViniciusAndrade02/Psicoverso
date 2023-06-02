@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area de Perfil</title>
+    <link rel="stylesheet" href="areadeperfil.css">
+</head>
+<body>
+
+    
+    <div class="container">
+        
+        
+        <div class="cima">
+                
+                <div id="cima-canto">
+                    <button type="button" id="btnvolta" onclick="voltarprincipal()"></button>
+                </div>
+                <div id="cima-meio">
+                    <label id="lblperfil">Perfil</label>
+                </div>
+                <div id="cima-final">
+                </div>
+                
+        </div>
+        
+        
+        <div class="meio">
+                
+            <div class="coluna1">
+
+                <div id="coluna1lbls">
+
+                    <label class="custumizar" id="lblnome">Nome: </label> 
+
+                    <label class="custumizar" id="lblsobrenome">Sobrenome: </label> 
+                    
+                    <label class="custumizar" id="lblnascimento">Data de Nascimento: </label> 
+
+                    <label class="custumizar" id="lblendereço">Endereço: </label>
+                </div>
+                
+
+                <div id="coluna1inputs">
+
+                    <input class="custumizar" id="nome" type="text" placeholder="Nome">
+
+                    <input class="custumizar" id="sobrenome" type="text" placeholder="Sobrenome">
+                    
+                    <input class="custumizar" id="nascimento" type="date" placeholder=" Data de Nascimento ">
+                    
+                    <input class="custumizar" id="endereço" type="text" placeholder="Endereço">
+                </div>          
+            </div>
+
+
+                <div class="coluna2">
+                    
+                    <div id="coluna2lbls">
+
+                        <label class="custumizar" id="lblCEP">CEP: </label> 
+                    
+                        <label class="custumizar" id="lbltel">Telefone: </label>
+
+                        <label class="custumizar" id="lblemail">Email: </label> 
+
+                        <label class="custumizar" id="lblsenha">Senha: </label> 
+                    </div>
+
+
+                    <div id="coluna2inputs">
+                        
+                        <div id="outrosinputs">
+                            <input id="cep" type="text" placeholder="CEP">
+                        
+                            <input id="telefone" type="tel" placeholder="Seu Telefone">
+
+                            <input id="email" type="email" placeholder="Email">
+                        </div>
+
+
+                        <div id="OlhoSenha">
+                            <input id="senha" type="password" placeholder="Senha" maxlength="10">
+                            <img src="eye.svg" onclick="Change()" id="olho">
+                        </div>
+                    </div>
+                </div>
+    
+                
+
+        </div>
+            
+        
+        
+
+        <div class="baixo">
+            <div class="btt">
+                <button type="button" id="btnsalva" onclick="Editar()">Editar Dados</button>
+                <button type="button" id="btnEdita" onclick="Sair()">Sair Da Conta</button>
+            </div>
+        </div>   
+
+    </div>
+</div>
+
+    <script src="areadeperfil.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+/* menu hamburguer */
+#menu{
+
+    width: 30px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    position: relative;
+    top: -4px;
+    left: 0px;
+    z-index: 1;
+
+
+}
+
+.bar{
+
+    height: 5px;
+    width: 100%;
+    background-color: #072541;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease ;
+}
+
+#bar1{
+
+    transform: translateY(-4px);
+}
+
+#bar3{
+
+    transform: translateY(4px);
+}
+
+
+.change .bar{
+
+    background-color: white;
+}
+
+.change #bar1{
+
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change #bar2{
+
+    opacity: 0;
+}
+
+.change{
+
+    display: block;
+}
+
+
+
+.aparecer{
+
+    display: block;
+    background-color: #084377;
+    width: 150px;
+    height: 668px;
+    position: relative;
+    margin-top: -668px;
+    margin-left: 0px;
+    transition: 0.3s;
+
+    
+}
+
+.esconderdiv{
+
+    display: block;
+    background-color:#2676ba;
+    width: 0px;
+    height: 0px;
+    position: relative;
+    margin-top: -668px;
+    margin-left: 0px;
+    transition: 0.3s;
+}
+
+#espaco{
+
+    height: 100px;
+    width: 100%;
+}
+
+#Principal{
+
+    height: 60px;
+    width: 100%;
+    background-color: rgb(0, 255, 21);
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#EscritaPrincipal{
+
+    display: none;
+}
+
+.animarprincipal{
+
+    font-size: 18px;
+}
+
+.animarprincipal:hover{
+
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#Quiz{
+   
+    height: 60px;
+    width: 100%;
+    background-color: rgb(39, 190, 185);
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#EscritaQuiz{
+
+    display: none;
+}
+
+.animarquiz{
+
+    font-size: 18px;
+}
+
+.animarquiz:hover{
+
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#Psicólogos{
+
+    height: 60px;
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: rgb(56, 90, 148);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#EscritaPsicologo{
+
+    display: none;
+}
+
+.animarpsicologo{
+
+    font-size: 18px;
+}
+
+.animarpsicologo:hover{
+
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#Usuariosair{
+
+    height: 60px;
+    width: 100%;
+    background-color: rgb(192, 211, 19);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#EscritaSair{
+
+    display: none;
+}
+
+.animarsair{
+
+    font-size: 18px;
+}
+
+.animarsair:hover{
+
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+#tirarsublinhado{
+
+    text-decoration: none;
+}
+
+/* menu hamburguer  ----------------------------------------------------------------------------------*/

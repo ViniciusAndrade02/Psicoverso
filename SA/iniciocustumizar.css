@@ -1,0 +1,1552 @@
+html{
+
+    height: 100%;
+
+}
+body{
+
+    height: 100%;
+    margin: 0%;
+
+
+}
+
+
+#container{
+
+
+    height: 100%;
+    width: 100%;
+
+
+}
+
+#cima{
+
+    height: 11%;
+    width: 100%;
+    display: flex;
+    background-image: url("img/fundo2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+
+}
+
+#menu-bar{
+
+
+    height: 100%;
+    width: 25%;
+
+}
+
+#tituloprincipal{
+
+    height: 100%;
+    width: 50%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#perfil{
+
+    height: 100%;
+    width: 25%;
+ 
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#mostrarnome{
+
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*------------------------------------------------------------*/
+
+
+
+#meio{
+
+
+    height: 89%;
+    width: 100%;
+
+    background-image: url("img/fundo2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+
+
+#saudacao{
+
+    height: 11%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-saudade{
+
+    font-size: 30px;
+}
+
+#separaremcima{
+
+    height: 37%;
+    width: 100%;
+
+    display: flex;
+}
+
+#div1{
+
+    height: 100%;
+    width: 33.3%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#porque{
+
+    height: 60%;
+    width: 60%;
+    background-color: #e6f0fc;
+    border-radius: 10px 10px 10px 10px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+#porque:hover{
+
+    height: 67%;
+    width: 67%;
+    background: linear-gradient(#8fbeec,#73afeb,#70bbf5);
+    transition: 0.4s;
+
+}
+
+#separar{
+    width: 2px;
+
+}
+
+#div2{
+
+    height: 100%;
+    width: 33.3%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#oquee{
+
+    height: 60%;
+    width: 60%;
+    background-color: #e6f0fc;
+    border-radius: 10px 10px 10px 10px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#oquee:hover{
+
+    height: 67%;
+    width: 67%;
+    background: linear-gradient(#8fbeec,#73afeb,#70bbf5);
+    transition: 0.4s;
+}
+
+#div3{
+
+    height: 100%;
+    width: 33.3%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Problemas{
+
+    height: 60%;
+    width: 60%;
+    background-color: #e6f0fc;
+    border-radius: 10px 10px 10px 10px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#Problemas:hover{
+
+    height: 67%;
+    width: 67%;
+    background: linear-gradient(#8fbeec,#73afeb,#70bbf5);
+    transition: 0.4s;
+}
+
+#separarembaixo{
+
+    height: 35%;
+    width: 100%;
+
+
+    display: flex;
+}
+
+#espacoparadiv4{
+
+    height: 100%;
+    width: 230px;
+
+
+}
+
+#div4{
+
+    height: 100%;
+    width: 33.3%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#solucoes{
+
+    height: 60%;
+    width: 60%;
+    background-color: #e6f0fc;
+    border-radius: 10px 10px 10px 10px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#solucoes:hover{
+
+    height: 67%;
+    width: 67%;
+    background: linear-gradient(#8fbeec,#73afeb,#70bbf5);
+    transition: 0.4s;
+}
+
+#espacoparadiv5{
+
+    height: 100%;
+    width: 0px;
+    background-color: beige;
+}
+
+#div5{
+
+    height: 100%;
+    width: 33.3%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#QuemSomos{
+
+    height: 60%;
+    width: 60%;
+    background-color: #e6f0fc; 
+    border-radius: 10px 10px 10px 10px;
+
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#QuemSomos:hover{
+
+    height: 67%;
+    width: 67%;
+    background: linear-gradient(#8fbeec,#73afeb,#70bbf5);
+    transition: 0.4s;
+}
+
+.titulo-cust{
+
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+
+.titulo-cust:hover{
+
+    font-size: 18px;
+    color: rgb(5, 4, 4);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*A PARTE DE BAIXO*/
+
+
+
+/*mostrar o porque*/
+
+
+#mostrar-porque{
+
+    display: flex;
+    display: none;
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#definitivo-porque{
+
+
+    height: 100%;
+    width: 59%;
+    background-color: rgba(0, 183, 255, 0.301);
+}
+
+#titulo-definitivo-porque{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(7, 91, 216, 0.795);
+
+    height: 10%;
+    width: 100%;
+}
+
+#escrita-definivo-porque{
+
+    display: flex;
+    height: 90%;
+    width: 100%;
+    background-color: azure;
+}
+
+#espaco-porque{   /* espaco lateral*/
+
+    height: 100%;
+    width: 7%;
+
+}
+
+#margem-texto-porque{
+    
+    height: 2%;
+    width: 100%;
+}
+
+#escrita-porque{
+
+    height: 70%;
+    width: 93%;
+
+}
+
+.label-porque{
+
+    font-size: 17px;
+    cursor: text;
+}
+
+
+
+#imagem-definitivo-porque{
+
+    height: 100%;
+    width: 41%;
+    background: linear-gradient(#0d5fc4,#5298EB);
+
+}
+
+#imagem-porque-cima{
+
+    height: 50%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem-porque-baixo{
+
+    height: 50%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#meninogamer{
+
+    height: 240px;
+    width: 360px;
+    transition: 0.5s;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#meninogamer:hover{
+
+    height: 250px;
+    width: 380px;
+    transition: 0.5s;
+}
+
+#controle{
+
+    height: 240px;
+    width: 360px;
+    transition: 0.5s;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#controle:hover{
+
+    height: 250px;
+    width: 380px;
+    transition: 0.5s;
+}
+
+
+/*mostrar o porque--------------------------------------------------------------------------------------------------*/
+
+
+
+/*Mostrar oquee*/
+
+
+#mostrar-oquee{
+
+    display: flex;
+    display: none;
+
+    height: 100%;
+    width: 100%;
+
+}
+
+
+#definitivo-oquee{
+
+
+    height: 100%;
+    width: 59%;
+    background-color: rgb(206, 255, 127);
+}
+
+#titulo-definitivo-oquee{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(7, 91, 216, 0.795);
+
+    height: 10%;
+    width: 100%;
+}
+
+#escrita-definivo-oquee{
+
+    display: flex;
+    height: 90%;
+    width: 100%;
+    background-color: azure;
+}
+
+#espaco-escrita{
+
+    height: 100%;
+    width: 6%;
+
+}
+
+#espaco-baixo{
+
+    height: 1.5%;
+    width: 100%;
+}
+
+#escrita-oquee{
+
+    height: 100%;
+    width: 93%;
+
+}
+
+.esp-label{
+
+    width: 100%;
+    height: 2%;
+}
+
+.label-oquee{
+
+    font-size: 17px;
+    cursor: text;
+}
+
+#imagem-definitivo-oquee{
+
+    height: 100%;
+    width: 41%;
+    background: linear-gradient(#0d5fc4,#5298EB);
+
+}
+
+#imagem-oquee-cima{
+
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#duvida{
+
+    height: 250px;
+    width: 340px;
+    transition: 0.5s;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#duvida:hover{
+
+    height: 260px;
+    width: 360px;
+    transition: 0.5s;
+}
+
+#imagem-oquee-baixo{
+
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#controle-oquee{
+
+    height: 250px;
+    width: 340px;
+    transition: 0.5s;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#controle-oquee:hover{
+
+    height: 260px;
+    width: 360px;
+    transition: 0.5s;
+}
+
+/*oquee ---------------------------------------------------------------------------------------------------------*/
+
+
+/*POSSIVEIS SOLUÇÕES*/
+
+
+#mostrar-possiveis-solucoes{
+
+    display: flex;
+    display: none;
+
+
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+#definitivo-possiveis-solucoes{
+
+    
+
+    height: 100%;
+    width: 59%;
+    background-color: rgb(237, 241, 241);
+}
+
+#titulo-definitivo-possiveis-solucoes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(7, 91, 216, 0.795);
+
+    height: 10%;
+    width: 100%;
+}
+
+
+
+#escrita-definivo-possiveis-solucoes{
+
+    display: flex;
+
+    height: 60%;
+    width: 100%;
+    background-color: rgb(237, 241, 241);
+}
+
+#colocarbotao{
+
+    height: 40%;
+    width: 100%;
+    background-color: rgb(237, 241, 241);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#botao-quiz-solucao{
+
+    height: 70px;
+    width: 150px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 17px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-color:  rgb(74, 169, 247);
+    margin-bottom: 20px;
+}
+
+#botao-quiz-solucao:hover{
+
+    height: 80px;
+    width: 170px;
+    background: linear-gradient(#0d5fc4,#62a5f7);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#facaloginquiz{
+
+    color: red;
+    font-size: 20px;
+}
+
+#espaco-escrita-definivo-possiveis-solucoes{
+
+    height: 100%;
+    width: 7%;
+
+}
+
+#escrita-solucao{
+
+    height: 100%;
+    width: 93%;
+
+}
+
+.label-solucao{
+
+    font-size: 17px;
+    cursor: text;
+}
+
+.esp{
+
+    width: 100%;
+    height: 2%;
+}
+
+
+
+
+
+#imagem-definitivo-possiveis{
+
+    height: 100%;
+    width: 41%;
+    background: linear-gradient(#0d5fc4,#5298EB);
+
+}
+
+
+#imagem-possiveis-superior{
+
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#xadrez{
+
+    height: 240px;
+    width: 360px;
+    transition: 0.5s;
+    border-radius: 7%;
+    cursor: pointer;
+}
+#xadrez:hover{
+
+    height: 250px;
+    width: 370px;
+    transition: 0.5s;
+}
+
+#imagem-possiveis-inferior{
+
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#psicologo{
+
+    height: 265px;
+    width: 358px;
+    transition: 0.5s;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#psicologo:hover{
+
+    height: 275px;
+    width: 366px;
+    transition: 0.5s;
+}
+
+/*POSSIVEIS SOLUÇÕES --------------------------------------------------------------------------------*/
+
+
+
+/*mostrar-principais-problemas--*/
+
+#mostrar-principais-problemas{
+
+    display: flex;
+    display: none;
+
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#principais-tópicos{
+
+    height: 100%;
+    width: 30%;
+    background: linear-gradient(#0d5fc4,#5298EB);
+
+
+
+}
+
+#sentido-saude{
+
+    height: 33.3%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#click-saude{
+
+    height: 65%;
+    width: 65%;
+    background-color: #b1d2fa;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#click-saude:hover{
+
+    height: 70%;
+    width: 70%;
+    transition: 0.5s;
+    background: linear-gradient(#8fbeec,#73afeb,#70bbf5);
+}
+
+#sentido-escolar{
+
+    height: 33.3%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#click-escolar{
+
+    height: 65%;
+    width: 65%;
+    background-color: #b1d2fa;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#click-escolar:hover{
+
+    height: 70%;
+    width: 70%;
+    transition: 0.5s;
+    background: linear-gradient(#8fbeec,#73afeb,#70bbf5);
+}
+
+#sentido-trabalho{
+
+    height: 33.3%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#click-trabalho{
+
+    height: 65%;
+    width: 65%;
+    background-color: #b1d2fa;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#click-trabalho:hover{
+
+    height: 70%;
+    width: 70%;
+    transition: 0.5s;
+    background: linear-gradient(#8fbeec,#73afeb,#70bbf5);
+}
+
+.label-click{
+
+    font-size: 18px;
+}
+
+.label-click:hover{
+
+    font-size: 20px;
+}
+
+#espaco-sentidos{
+
+    height: 100%;
+    width: 40px;
+    background: linear-gradient(#0d5fc4,#5298EB);
+}
+
+/* A partir daqui sera a distribuicao dos tres tópicos */     /*SAUDE*/
+
+#sentido-saude-definitivo{
+
+    display: none;
+
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(204, 230, 245, 0.37);
+}
+
+#titulo-saude-definitivo{
+
+    height: 13%;
+    width: 100%;
+    background-color: #5298EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.custumizar-titulo-saude-definitivo{
+
+    font-size: 29px;
+}
+
+#escrita-saude-definitivo{
+
+
+    height: 87%;
+    width: 100%;
+    background-color: rgb(231, 239, 255);
+}
+
+
+
+#espaco-saude-espaco{
+
+    width: 100%;
+    height: 5px;
+}
+
+.label-saude-definitivo{
+
+    font-size: 17px;
+    cursor: text;
+
+}
+
+.negrito{
+
+    font-weight: bold;
+    cursor: text;
+}
+
+
+/* A partir daqui sera a distribuicao dos tres tópicos */     /*SENTIDO ESCOLAR*/
+
+
+#sentido-escolar-definitivo{
+
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#titulo-escolar-definitivo{
+
+    height: 13%;
+    width: 100%;
+    background-color: #5298EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custumizar-titulo-escolar-definitivo{
+
+    font-size: 29px;
+}
+
+
+#escrita-escolar-definitivo{
+
+    height: 30%;
+    width: 100%;
+    background-color: rgb(231, 239, 255);
+
+
+}
+
+
+
+#imagens-escolar-definitivo{
+
+    height: 57%;
+    width: 100%;
+    background-color: rgb(231, 239, 255);
+    display: flex;
+}
+
+#esquerdo-escolar{
+
+    height: 100%;
+    width: 33.3%;
+    background-color: rgb(231, 239, 255);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#estudantetriste{
+
+    height: 200px;
+    width: 230px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#estudantetriste:hover{
+
+    height: 220px;
+    width: 250px;
+    transition: 0.5s;
+}
+
+
+
+#meio-escolar{
+
+    height: 100%;
+    width: 33.3%;
+    background-color: rgb(231, 239, 255);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#gamerjogando{
+
+    height: 200px;
+    width: 230px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#gamerjogando:hover{
+
+    height: 220px;
+    width: 250px;
+    transition: 0.5s;
+}
+
+#direito-escolar{
+
+    height: 100%;
+    width: 33.3%;
+    background-color: rgb(231, 239, 255);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bullying{
+
+    height: 200px;
+    width: 230px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#bullying:hover{
+
+    height: 220px;
+    width: 250px;
+    transition: 0.5s;
+}
+
+
+
+
+.label-escolar-definitivo{
+
+    font-size: 17px;
+    cursor: text;
+
+}
+
+
+/* A partir daqui sera a distribuicao dos tres tópicos */     /*SENTIDO TRABALHO*/
+
+
+#sentido-trabalho-definitivo{
+
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(231, 239, 255);
+
+}
+
+#titulo-trabalho-definitivo{
+
+    height: 13%;
+    width: 100%;
+    background-color: #5298EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custumizar-titulo-trabalho-definitivo{
+
+    font-size: 29px;
+}
+
+
+#escrita-trabalho-definitivo{
+
+    height: 15%;
+    width: 100%;
+    background-color: rgb(231, 239, 255);
+
+}
+
+.label-trabalho-definitivo{
+
+    font-size: 17px;
+}
+
+#imagem-trabalho{
+
+    display: flex;
+
+    height: 60%;
+    width: 100%;
+    background-color: rgb(231, 239, 255);
+
+}
+
+#direita-trabalho{
+
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jovemdesempregado{
+
+    height: 220px;
+    width: 250px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#jovemdesempregado:hover{
+
+    height: 230px;
+    width: 260px;
+    transition: 0.5s;
+}
+
+
+#esquerda-trabalho{
+
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gamertrabalho{
+
+    height: 220px;
+    width: 250px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#gamertrabalho:hover{
+
+    height: 230px;
+    width: 260px;
+    transition: 0.5s;
+}
+
+
+
+/*mostrar-principis-problemas----------------------------------------------------------------------------------------*/
+
+
+/*QUEM SOMOS*/
+
+#quem-somos-mostrar{
+
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#0d5fc4,#5298EB);
+}
+
+#espaco-quem-somos-cima{
+
+    height: 10%;
+    width: 100%;
+
+}
+
+#fotos{
+
+    display: flex;
+    height: 80%;
+    width: 100%;
+
+}
+
+#kaua{
+
+    height: 100%;
+    width: 25%;
+}
+
+#Nome-Kaua{
+
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#label-Nome-Kaua{
+
+    font-size: 30px;
+}
+
+#Foto-kaua{
+
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#EditKaua{
+
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.6s;
+
+}
+
+#EditKaua:hover{
+
+    height: 232px;
+    width: 235px;
+    transition: 0.6s;
+}
+
+#descricao-kaua{
+
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Vinicius{
+
+    height: 100%;
+    width: 25%;
+
+}
+
+#Nome-Vinicius{
+
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#label-Nome-Vinicius{
+
+    font-size: 30px;
+}
+
+#Foto-Vinicius{
+
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#EditVinicius{
+
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.6s;
+}
+
+#EditVinicius:hover{
+
+    height: 232px;
+    width: 235px;
+    transition: 0.6s;
+}
+
+#descricao-vinicius{
+
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#label-descricao-vinicius{
+
+    font-size: 20px;
+}
+
+
+#Matias{
+
+    height: 100%;
+    width: 25%;
+}
+
+#Nome-Matias{
+
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#label-Nome-Matias{
+
+    font-size: 30px;
+}
+
+#Foto-Matias{
+
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#EditMatias{
+
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.6s;
+}
+
+#EditMatias:hover{
+
+    height: 232px;
+    width: 235px;
+    transition: 0.6s;
+}
+
+#descricao-Matias{
+
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Teodoro{
+
+    height: 100%;
+    width: 25%;
+}
+
+#Nome-Teodoro{
+
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#label-Nome-Teodoro{
+
+    font-size: 30px;
+}
+
+#Foto-Teodoro{
+
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#EditTeodoro{
+
+    height: 220px;
+    width: 220px;
+    cursor: pointer;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.6s;
+}
+
+#EditTeodoro:hover{
+
+    height: 232px;
+    width: 235px;
+    transition: 0.6s;
+}
+
+#Descricao-Teodoro{
+
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#label-descricao-teodoro{
+
+    font-size: 20px;
+}
+
+
+#espaco-quem-somos-baixo{
+
+    height: 10%;
+    width: 100%;
+
+}
+
+/*QUEM SOMOS*---------------------------------------------------------------------------------/
+
+/* deixar os botões redondos   */
+#PerfilBotao{
+
+    border-radius: 80%;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+
+/*     deixa botaoes redondos ------------------------------------------------*/

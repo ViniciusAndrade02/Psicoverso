@@ -1,0 +1,442 @@
+@font-face { 
+    font-family: "seco";
+    src: url(HindKochi-Bold.ttf) format("TrueType");    
+}
+@font-face { 
+    font-family: "calor";
+    src: url(Timeless-Bold.ttf) format("TrueType");    
+}
+@font-face { 
+    font-family: "frio";
+    src: url(secrcode.ttf) format("TrueType");    
+}
+@font-face { 
+    font-family: "quente";
+    src: url(Inter-ExtraLight.ttf) format("TrueType");    
+}
+html
+{
+    height: 100%;
+}
+body
+{
+    height: 100%;
+    margin: 0%;
+    background-color: rgb(117, 31, 0);
+}
+.container
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("img/stacked-peaks-haikei\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.cima
+{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#cima-canto
+{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-self: flex-start;
+}
+#cima-meio
+{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "seco";
+}
+#cima-final
+{
+    height: 100%;
+    width: 34%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+#img1
+{
+    height: 100%;
+    width: 40%;
+}
+#btnvolta
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 1.6rem;
+    border-radius: 100%;
+    background-image: url(direction_arrows_previous_back_arrow_left_backward_icon_219369.ico);
+    background-size: 3.313rem;
+    background-position: center;
+    cursor: pointer;
+}
+#lblperfil
+{
+
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.meio
+{
+    height: 45%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.coluna1
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#coluna1lbls
+{
+
+height: 100%;
+width: 50%;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-end;
+flex-direction: column;
+}
+#lblnome
+{
+
+    font-family: "quente";
+    font-weight: bolder;
+    margin-right: 3%;
+}
+#lblsobrenome
+{
+
+    font-family: "quente";
+    font-weight: bolder;
+    margin-right: 3%;
+}
+#lblnascimento
+{
+
+    font-family: "quente";
+    font-weight: bolder;
+    margin-right: 3%;
+}
+#lblendereço
+{
+
+    font-family: "quente";
+    font-weight: bolder;
+    margin-right: 3%;
+}
+
+#coluna1inputs
+{
+height: 100%;
+width: 50%;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;
+flex-direction: column;
+}
+#nome
+{
+    height: 1.3rem;
+    width: 16rem;
+    font-size: 1rem;
+    font-family: "quente";
+    background-color: rgb(228, 228, 228);
+    border: 0.111rem;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+#sobrenome
+{
+    height: 1.3rem;
+    width: 16rem;
+    font-size: 1rem;
+    font-family: "quente";
+    background-color: rgb(228, 228, 228);
+    border: 0.111rem;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+#nascimento
+{
+    height: 1.5rem;
+    width: 16.2rem;
+    font-size: 1rem;
+    font-family: "quente";
+    background-color: rgb(228, 228, 228);
+    border: 0.111rem;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+#endereço
+{
+    height: 1.3rem;
+    width: 16rem;
+    font-size: 1rem;
+    font-family: "quente";
+    background-color: rgb(228, 228, 228);
+    border: 0.111rem;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.coluna2
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#coluna2lbls
+{
+
+height: 100%;
+width: 15%;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-end;
+flex-direction: column;
+}
+#lblCEP
+{
+
+    font-family: "quente";
+    font-weight: bolder;
+    margin-right: 9%;
+}
+#lbltel
+{
+
+    font-family: "quente";
+    font-weight: bolder;
+    margin-right: 9%;
+}
+#lblemail
+{
+
+    font-family: "quente";
+    font-weight: bolder;
+    margin-right: 9%;
+}
+#lblsenha
+{
+
+    font-family: "quente";
+    font-weight: bolder;
+    margin-right: 9%;
+}
+
+#coluna2inputs
+{
+height: 100%;
+width: 85%;
+display: flex;
+flex-direction: column;
+}
+#outrosinputs
+{
+    height: 79%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#cep
+{
+    height: 1.3rem;
+    width: 16rem;
+    font-size: 1rem;
+    font-family: "quente";
+    background-color: rgb(228, 228, 228);
+    border: 0.111rem;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+#telefone
+{
+    height: 1.3rem;
+    width: 16rem;
+    font-size: 1rem;
+    font-family: "quente";
+    background-color: rgb(228, 228, 228);
+    border: 0.111rem;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+#email
+{
+    height: 1.3rem;
+    width: 16rem;
+    font-size: 1rem;
+    font-family: "quente";
+    border: 0.111rem;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+#OlhoSenha
+{
+    height: 21%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#senha
+{
+    height: 1.3rem;
+    width: 16rem;
+    font-size: 1rem;
+    font-family: "quente";
+    background-color: rgb(228, 228, 228);
+    border: 0.111rem;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    
+}
+#olho
+{
+    margin-top: 4px;
+    height: 1.3em;
+    width: 2rem;
+}
+
+
+.baixo
+{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btt
+{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+#btnsalva
+{
+    height:5rem;
+    width: 8rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-family: "calor";
+    border-color: rgb(17, 14, 14);
+    border-radius: 8rem;
+
+}
+#btnsalva:hover
+{
+    background-color: #1a9f8b;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#btnlimpa
+{
+    height:5rem;
+    width: 8rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-family: "calor";
+    color: rgb(0, 0, 0);
+    border-radius: 8rem;
+    border: solid 0.2rem rgb(0, 0, 0)
+}
+#btnlimpa:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#btnEdita
+{
+    height:5rem;
+    width: 8rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-family: "calor";
+    color: rgb(0, 0, 0);
+    border-radius: 8rem;
+
+}
+#btnEdita:hover
+{
+    background-color: #1a9f8b;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+#btnPesquisa
+{
+    height:5rem;
+    width: 8rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-family: "calor";
+    color: rgb(0, 0, 0);
+    border-radius: 8rem;
+    border: solid 0.2rem rgb(0, 0, 0)
+}
+#btnPesquisa:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.custumizar{
+
+    font-size: 19px;
+    color: #0a2522;
+}
